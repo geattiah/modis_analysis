@@ -1,3 +1,15 @@
+# ----------------------------------------------------------------------------
+# -*- coding: utf-8 -*-
+# @Author:              Gifty Attiah
+# @Date:                2021-05-24
+# @Email:               geattiah@gmail.com
+# @Last Modified By:    Gifty Attiah
+# @Last Modified Time:  Not Tracked
+# 
+# PROGRAM DESCRIPTION:
+# Get modis tile based on location
+# ----------------------------------------------------------------------------
+
 import numpy as np
 
 filename = r"C:\Users\ReSEC2021\Dropbox\Python\array\sn_bound_10deg.txt"

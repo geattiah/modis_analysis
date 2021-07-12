@@ -1,3 +1,15 @@
+# ----------------------------------------------------------------------------
+# -*- coding: utf-8 -*-
+# @Author:              Gifty Attiah
+# @Date:                2020-12-21
+# @Email:               geattiah@gmail.com
+# @Last Modified By:    Gifty Attiah
+# @Last Modified Time:  Not Tracked
+# 
+# PROGRAM DESCRIPTION:
+# Mosaic Modis Data within a folder
+# ----------------------------------------------------------------------------
+
 import os
 import fnmatch
 from osgeo import gdal
@@ -26,29 +38,3 @@ for dirs in allSubDirs:
 
         #print(files)
 
-
-
-    
-
-
-# for subdir, dirs, files in os.walk(rootdir_12):
-#     for folder in dirs:
-#         direc = os.path.join(dirs,folder)
-#         for files in os.listdir(direc):
-#         #if fnmatch.fnmatch(file_12, '[20031119]'):
-#             print(files)
-        #print(os.path.join(subdir, file_12))
-        # for subdir, dirs, files in os.walk(rootdir_13):
-        #     for file_13 in files:  
-        #         if fnmatch.fnmatch(file_13, '[20031119]'):
-        #             print(file)
-
-                #print(os.path.join(subdir, file_13))
-
-#for i in 
-#file_13 = r"C:/Users/ReSEC2021/Downloads/MODIS_LST_h13v02_20030101.hdf"
-#file_12 = r"C:/Users/ReSEC2021/Downloads/MODIS_LST_h12v02_20030101.hdf"
-#out = r"C:/Users/ReSEC2021/Downloads/out_LST_al.hdf"
-#vrt_options = gdal.BuildVRTOptions(resampleAlg='nearest', addAlpha=True)
-#my_vrt = gdal.BuildVRT(out, [file_12, file_13]) #options=vrt_options)
-#my_vrt = N
