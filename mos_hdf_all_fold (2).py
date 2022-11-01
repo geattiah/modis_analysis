@@ -15,7 +15,7 @@ import fnmatch
 from osgeo import gdal
 #import gdal
 
-rootdir_12 =  "/home/kheyro/rootdir/data/satellite/daily/MYD11/2003"
+rootdir_12 =  "C:\Users\ReSEC2021\Downloads\2003"
 rootdir_13 =  "/home/kheyro/rootdir/data/satellite/daily/MYD11_13/2003"
 storage = "/home/kheyro/rootdir/data/satellite/daily/MYD11"
 
